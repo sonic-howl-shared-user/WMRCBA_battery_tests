@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.1.4.0</Version>
+  <Type>Discharge</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>AmpHrs</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="sarah@5A">
+      <Description>Power Supply @ 5.00A</Description>
+      <DateStarted>2023-03-16T16:36:35.4842281-04:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>PowerSupply</BatteryType>
+      <BatteryCapacity>12</BatteryCapacity>
+      <BatteryVoltage>13.255352</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>13.6</BatteryWeight>
+      <BatteryAge>24</BatteryAge>
+      <BatteryManufacturer>genesis</BatteryManufacturer>
+      <BatteryNotes />
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>12</TestCutoffV>
+      <TestedCapacity>3.44444452E-05</TestedCapacity>
+      <PowerCapacity>5.32827762E-05</PowerCapacity>
+      <TestTime>3</TestTime>
+      <StopReason>LowVoltage</StopReason>
+      <Hide>false</Hide>
+      <LineColor>-65536</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>600</StalledMilliseconds>
+      <TestType Name="Discharge">
+        <Current>5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+      </TestType>
+      <Notes />
+      <Samples>
+        <S T="0" V="10.172" C="0" Tp="999.9" />
+        <S T="1" V="8.013" C="0.017" Tp="999.9" />
+        <S T="2" V="6.201" C="0.001" Tp="999.9" />
+        <S T="3" V="0.466" C="0.212" Tp="999.9" />
+      </Samples>
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
