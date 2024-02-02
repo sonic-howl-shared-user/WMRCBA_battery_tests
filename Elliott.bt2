@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.2.2.1</Version>
+  <Type>Discharge</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>AmpHrs</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="02_02_2024">
+      <Description>6 AGM cells, 15.0 Ah @ 5.00A</Description>
+      <DateStarted>0001-01-01T00:00:00-05:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>AbsorbentGlassMat</BatteryType>
+      <BatteryCapacity>15</BatteryCapacity>
+      <BatteryVoltage>13.3883314</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>12.9</BatteryWeight>
+      <BatteryAge>12</BatteryAge>
+      <BatteryManufacturer>MK Powered</BatteryManufacturer>
+      <BatteryNotes>Elliott</BatteryNotes>
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>10.2</TestCutoffV>
+      <TestedCapacity>0</TestedCapacity>
+      <PowerCapacity>0</PowerCapacity>
+      <TestTime>0</TestTime>
+      <StopReason>NotRecorded</StopReason>
+      <Hide>false</Hide>
+      <LineColor>0</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>0</StalledMilliseconds>
+      <TestType Name="Discharge">
+        <Current>5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+      </TestType>
+      <Notes />
+      <Samples />
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
