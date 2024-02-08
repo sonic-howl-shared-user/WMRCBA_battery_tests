@@ -30,7 +30,7 @@
       <SampleRate>1</SampleRate>
       <BatteryType>AbsorbentGlassMat</BatteryType>
       <BatteryCapacity>15</BatteryCapacity>
-      <BatteryVoltage>13.0948982</BatteryVoltage>
+      <BatteryVoltage>13.2084093</BatteryVoltage>
       <BatteryCells>6</BatteryCells>
       <BatteryWeight>12.9</BatteryWeight>
       <BatteryAge>12</BatteryAge>
@@ -11513,7 +11513,7 @@
       <SampleRate>1</SampleRate>
       <BatteryType>AbsorbentGlassMat</BatteryType>
       <BatteryCapacity>15</BatteryCapacity>
-      <BatteryVoltage>13.0948982</BatteryVoltage>
+      <BatteryVoltage>13.2084093</BatteryVoltage>
       <BatteryCells>6</BatteryCells>
       <BatteryWeight>12.9</BatteryWeight>
       <BatteryAge>12</BatteryAge>
@@ -16620,7 +16620,7 @@
       <SampleRate>1</SampleRate>
       <BatteryType>AbsorbentGlassMat</BatteryType>
       <BatteryCapacity>15</BatteryCapacity>
-      <BatteryVoltage>13.0948982</BatteryVoltage>
+      <BatteryVoltage>13.2084093</BatteryVoltage>
       <BatteryCells>6</BatteryCells>
       <BatteryWeight>12.9</BatteryWeight>
       <BatteryAge>12</BatteryAge>
@@ -18207,6 +18207,46 @@
         <S T="1552" V="12.222" C="5" Tp="999.9" />
         <S T="1680" V="12.222" C="5" Tp="999.9" />
       </Samples>
+      <CellSamples />
+    </Test>
+    <Test Name="02_08_2024">
+      <Description>6 AGM cells, 15.0 Ah @ 5.00A</Description>
+      <DateStarted>0001-01-01T00:00:00-05:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>AbsorbentGlassMat</BatteryType>
+      <BatteryCapacity>15</BatteryCapacity>
+      <BatteryVoltage>13.2084093</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>12.9</BatteryWeight>
+      <BatteryAge>12</BatteryAge>
+      <BatteryManufacturer>MK Powered</BatteryManufacturer>
+      <BatteryNotes>GemeRey</BatteryNotes>
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>10.2</TestCutoffV>
+      <TestedCapacity>0</TestedCapacity>
+      <PowerCapacity>0</PowerCapacity>
+      <TestTime>0</TestTime>
+      <StopReason>NotRecorded</StopReason>
+      <Hide>false</Hide>
+      <LineColor>0</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>233</StalledMilliseconds>
+      <TestType Name="Discharge">
+        <Current>5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+      </TestType>
+      <Notes />
+      <Samples />
       <CellSamples />
     </Test>
   </Tests>
