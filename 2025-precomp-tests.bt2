@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.5.3</Version>
+  <Type>Discharge</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>AmpHrs</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="Michael">
+      <Description>6 AGM cells, 12.0 Ah @ 5.00A</Description>
+      <DateStarted>0001-01-01T00:00:00-05:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>ZincAir</BatteryType>
+      <BatteryCapacity>12</BatteryCapacity>
+      <BatteryVoltage>13.05973</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>12.9</BatteryWeight>
+      <BatteryAge>36</BatteryAge>
+      <BatteryManufacturer>Genesis</BatteryManufacturer>
+      <BatteryNotes>kal-el (chaelleighl) (test only)</BatteryNotes>
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>11</TestCutoffV>
+      <TestedCapacity>0</TestedCapacity>
+      <PowerCapacity>0</PowerCapacity>
+      <TestTime>0</TestTime>
+      <StopReason>NotRecorded</StopReason>
+      <Hide>false</Hide>
+      <LineColor>0</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>0</StalledMilliseconds>
+      <AverageVoltage>0</AverageVoltage>
+      <InternalResistance>0</InternalResistance>
+      <TestType Name="Discharge">
+        <Current>5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+        <MinTime>0</MinTime>
+      </TestType>
+      <Notes />
+      <Samples />
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>

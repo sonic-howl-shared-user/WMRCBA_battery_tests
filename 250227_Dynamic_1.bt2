@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.5.3</Version>
+  <Type>Dynamic</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>Minutes</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="Test_1">
+      <Description>6 AGM cells @ 0.000 Amps</Description>
+      <DateStarted>2025-02-27T17:35:46.8005621-05:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>ZincAir</BatteryType>
+      <BatteryCapacity>1</BatteryCapacity>
+      <BatteryVoltage>13.0636549</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>0</BatteryWeight>
+      <BatteryAge>0</BatteryAge>
+      <BatteryManufacturer />
+      <BatteryNotes />
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>0</TestCutoffV>
+      <TestedCapacity>0</TestedCapacity>
+      <PowerCapacity>0</PowerCapacity>
+      <TestTime>3</TestTime>
+      <StopReason>UserStop</StopReason>
+      <Hide>false</Hide>
+      <LineColor>-65536</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>593</StalledMilliseconds>
+      <AverageVoltage>13.063</AverageVoltage>
+      <InternalResistance>0</InternalResistance>
+      <TestType Name="Dynamic">
+        <Loads>
+          <Load I="0" L="0" />
+        </Loads>
+        <LoadType>Current</LoadType>
+        <Graph>Minutes</Graph>
+        <GraphTemp>false</GraphTemp>
+      </TestType>
+      <Notes />
+      <Samples>
+        <S T="0" V="13.064" C="0" Tp="999.9" />
+        <S T="1" V="13.064" C="0" Tp="999.9" />
+        <S T="2" V="13.06" C="0" Tp="999.9" />
+        <S T="3" V="13.064" C="0" Tp="999.9" />
+      </Samples>
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
