@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.5.3</Version>
+  <Type>Dynamic</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>Minutes</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="Test_1">
+      <Description>6 AGM cells @ 0.000 Amps</Description>
+      <DateStarted>2025-02-27T21:07:17.0521405-05:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>ZincAir</BatteryType>
+      <BatteryCapacity>1</BatteryCapacity>
+      <BatteryVoltage>12.7936153</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>0</BatteryWeight>
+      <BatteryAge>0</BatteryAge>
+      <BatteryManufacturer />
+      <BatteryNotes />
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>0</TestCutoffV>
+      <TestedCapacity>0.0147505552</TestedCapacity>
+      <PowerCapacity>0.180205673</PowerCapacity>
+      <TestTime>24</TestTime>
+      <StopReason>UserStop</StopReason>
+      <Hide>false</Hide>
+      <LineColor>-65536</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>607</StalledMilliseconds>
+      <AverageVoltage>12.521760000000002</AverageVoltage>
+      <InternalResistance>0.088595664467484639</InternalResistance>
+      <TestType Name="Dynamic">
+        <Loads>
+          <Load I="0" L="0" />
+          <Load I="8" L="0.1" />
+          <Load I="9" L="0.2" />
+          <Load I="9" L="0.6" />
+          <Load I="9" L="0.4" />
+          <Load I="9" L="0.3" />
+          <Load I="9" L="0.5" />
+          <Load I="10" L="1" />
+          <Load I="10" L="0.8" />
+          <Load I="10" L="1.4" />
+          <Load I="10" L="1.2" />
+          <Load I="10" L="0.9" />
+          <Load I="10" L="1.1" />
+          <Load I="10" L="0.7" />
+          <Load I="10" L="1.3" />
+          <Load I="10" L="1.5" />
+          <Load I="11" L="2" />
+          <Load I="11" L="1.8" />
+          <Load I="11" L="2.2" />
+          <Load I="11" L="1.6" />
+          <Load I="11" L="1.7" />
+          <Load I="11" L="1.9" />
+          <Load I="11" L="2.1" />
+          <Load I="13" L="3.94" />
+          <Load I="13" L="3.69" />
+          <Load I="13" L="3.19" />
+          <Load I="13" L="4.62" />
+          <Load I="13" L="5.75" />
+          <Load I="13" L="5.62" />
+          <Load I="13" L="5.31" />
+          <Load I="13" L="2.75" />
+          <Load I="13" L="5" />
+          <Load I="13" L="3.87" />
+          <Load I="13" L="5.69" />
+          <Load I="13" L="3.56" />
+          <Load I="13" L="4" />
+          <Load I="13" L="5.44" />
+          <Load I="14" L="5.05" />
+          <Load I="14" L="5" />
+          <Load I="14" L="4.87" />
+          <Load I="14" L="5.25" />
+          <Load I="14" L="5.62" />
+          <Load I="14" L="5.5" />
+          <Load I="14" L="5.37" />
+          <Load I="14" L="5.05" />
+          <Load I="14" L="5.19" />
+          <Load I="14" L="5.31" />
+          <Load I="14" L="5" />
+          <Load I="14" L="4.8" />
+          <Load I="14" L="4.69" />
+          <Load I="14" L="4.87" />
+          <Load I="14" L="4.75" />
+          <Load I="14" L="4.75" />
+          <Load I="14" L="4.8" />
+          <Load I="14" L="5.12" />
+          <Load I="14" L="5.05" />
+          <Load I="14" L="5.44" />
+          <Load I="14" L="5.05" />
+          <Load I="14" L="4.94" />
+          <Load I="14" L="4.94" />
+          <Load I="14" L="5.31" />
+          <Load I="14" L="5.69" />
+          <Load I="14" L="5.12" />
+          <Load I="14" L="5.56" />
+          <Load I="14" L="5.25" />
+          <Load I="15" L="5.05" />
+          <Load I="15" L="5" />
+          <Load I="15" L="5.05" />
+          <Load I="15" L="5.12" />
+          <Load I="15" L="4.94" />
+          <Load I="16" L="5.05" />
+          <Load I="16" L="5.31" />
+          <Load I="16" L="5.19" />
+          <Load I="16" L="5.12" />
+          <Load I="16" L="5.25" />
+          <Load I="17" L="5.05" />
+          <Load I="17" L="5" />
+          <Load I="17" L="5.05" />
+          <Load I="17" L="5.12" />
+          <Load I="17" L="4.94" />
+          <Load I="17" L="5.05" />
+        </Loads>
+        <LoadType>Current</LoadType>
+        <Graph>Minutes</Graph>
+        <GraphTemp>false</GraphTemp>
+      </TestType>
+      <Notes />
+      <Samples>
+        <S T="0" V="12.794" C="0" Tp="999.9" />
+        <S T="1" V="12.794" C="0" Tp="999.9" />
+        <S T="2" V="12.794" C="0" Tp="999.9" />
+        <S T="3" V="12.794" C="0" Tp="999.9" />
+        <S T="4" V="12.794" C="0" Tp="999.9" />
+        <S T="5" V="12.794" C="0" Tp="999.9" />
+        <S T="6" V="12.794" C="0" Tp="999.9" />
+        <S T="7" V="12.794" C="0" Tp="999.9" />
+        <S T="8" V="12.798" C="0" Tp="999.9" />
+        <S T="9" V="12.798" C="0.1" Tp="999.9" />
+        <S T="10" V="12.79" C="0.074" Tp="999.9" />
+        <S T="11" V="12.77" C="0.275" Tp="999.9" />
+        <S T="12" V="12.7" C="1.061" Tp="999.9" />
+        <S T="13" V="12.622" C="1.777" Tp="999.9" />
+        <S T="14" V="12.571" C="2.091" Tp="999.9" />
+        <S T="15" V="12.336" C="4.699" Tp="999.9" />
+        <S T="16" V="12.215" C="5.25" Tp="999.9" />
+        <S T="17" V="12.211" C="5" Tp="999.9" />
+        <S T="18" V="12.179" C="5" Tp="999.9" />
+        <S T="19" V="12.172" C="5.05" Tp="999.9" />
+        <S T="20" V="12.156" C="5.05" Tp="999.9" />
+        <S T="21" V="12.14" C="5.05" Tp="999.9" />
+        <S T="22" V="12.129" C="5.05" Tp="999.9" />
+        <S T="23" V="12.074" C="5.05" Tp="999.9" />
+        <S T="24" V="12.031" C="5.05" Tp="999.9" />
+      </Samples>
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
